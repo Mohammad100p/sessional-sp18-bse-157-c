@@ -1,0 +1,195 @@
+.form-control{
+    border: 1px solid grey;
+    box-shadow: none;
+    display: block;
+    
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;width: 40px;
+}
+
+
+.bg-purple{
+    background-color: #1e0a3c;
+    color: aliceblue;
+    font-weight: 600;
+    
+}
+
+.m-right{
+    border-left: 4px solid  #F05537 ;
+    padding-left: 20px;
+
+}
+
+.m-right a{
+    color:  #F05537 ;
+}
+
+.banner{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    padding: 14px 24px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    border-radius: 4px;
+    
+    -webkit-box-shadow: 0 4px 12px -4px rgba(46,55,77,.12);
+    box-shadow: 0 4px 12px -4px rgba(46,55,77,.12);
+}
+
+
+.header__main-bg{
+   width: 1100px;
+   height: 60%;
+}
+
+.text1{
+    padding-bottom: 4px;
+    margin-top: 10px;
+    font-size: 24px;
+    color:  #F05537;
+    
+}
+
+@media (min-width: 1272px){
+.text1 {
+    font-size: 36px;
+    line-height: 62px;
+}
+}
+
+@media (min-width: 1080px){
+
+.text1 {
+    font-size: 30px;
+    line-height: 30px;
+}
+}
+
+@media (min-width: 792px){
+
+.text1 {
+    line-height: 24px;
+}
+}
+
+.btn1{
+    color: aliceblue;
+    border: 2px solid  #F05537;
+    background-color:  #F05537;
+}
+
+.underline{
+width:100px;
+height: 2px;
+background-color: orangered;
+}
+
+.fa-arrow-circle-up{
+    margin-left: 130px;
+    
+}
+
+.fa-heart{
+    margin-left: 20px;
+}
+
+
+
+.heading{
+    color:  #F05537;
+}
+
+.btn-light{
+    display: table;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2;
+    font-weight: 600;
+    color: #39364f;
+    background: transparent;
+    border: 2px solid #a9a8b3;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 300px;
+    position: relative;
+}
+
+.btn-bottom{
+    padding-left: 400px;
+    
+}
+
+.footer1{
+    background-color: #1e0a3c;
+    color: aliceblue;
+}
+
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #39364f;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid gray;
+    background: #9DBFAF;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 30%;
+    height: 0%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .pop{
+      color: blue;
+  }
+
+  .div1{
+      background-color: gray;
+      color: black;
+  }
+
+
+  
+
+
